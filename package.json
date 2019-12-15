@@ -29,5 +29,6 @@
   "dependencies": {
     "esm": "^3.2.25"
   },
-  "devDependencies": {}
+  "devDependencies": {}, 
+  "publishConfig": { "access": "public" }
 }
