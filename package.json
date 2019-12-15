@@ -1,5 +1,5 @@
 {
-  "name": "@gcdeveloper/use-event-listener",
+  "name": "@toolia/use-event-listener",
   "version": "2.0.2",
   "description": "useEventListener react hook",
   "main": "index.js",
