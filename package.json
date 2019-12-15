@@ -1,0 +1,33 @@
+{
+  "name": "@gcdeveloper/use-event-listener",
+  "version": "2.0.2",
+  "description": "useEventListener react hook",
+  "main": "index.js",
+  "module": "useEventListener.js",
+  "scripts": {
+    "test": "node -e \"process.exit(0)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GCDeveloper/useEventListener.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "EventListener"
+  ],
+  "author": "George O. E. Campbell <campbell.goe@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GCDeveloper/useEventListener/issues",
+    "email": "campbell.goe@gmail.com"
+  },
+  "homepage": "https://github.com/GCDeveloper/useEventListener#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {}
+}
