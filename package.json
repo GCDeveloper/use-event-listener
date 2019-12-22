@@ -1,6 +1,6 @@
 {
   "name": "@toolia/use-event-listener",
-  "version": "2.0.3",
+  "version": "3.0.0",
   "description": "useEventListener react hook",
   "main": "index.js",
   "module": "useEventListener.js",
@@ -29,6 +29,8 @@
   "dependencies": {
     "esm": "^3.2.25"
   },
-  "devDependencies": {}, 
-  "publishConfig": { "access": "public" }
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }
