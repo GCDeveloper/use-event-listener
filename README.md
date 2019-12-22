@@ -45,7 +45,7 @@ const Viewport = () => {
     });
   }), [ throttle ]);
 
-  const setListenToSize = useEventListener(window, 'resize',
+  const [listeningToSize, setListenToSize] = useEventListener(window, 'resize',
     throttledGetWindowSize,
     {
       initialiseOnAttach: true,
@@ -57,8 +57,8 @@ const Viewport = () => {
     <div>
       <p>width: {width}</p>
       <p>height: {height}</p>
-      <button onClick={()=>setListenToSize(false)}>Un-listen</button>
-      <button onClick={()=>setListenToSize(true)}>Listen</button>
+      <p>Listening to resize? {!!listeningToSize}</p>
+      <button onClick={()=>setListenToSize(b => !b)}>{listeningToSize ? 'Stop listening' : 'Listen'}</button>
     </div>
   );
 };
