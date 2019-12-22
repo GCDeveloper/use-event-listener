@@ -1,6 +1,6 @@
 {
   "name": "@toolia/use-event-listener",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "useEventListener react hook",
   "main": "index.js",
   "module": "useEventListener.js",
